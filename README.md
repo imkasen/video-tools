@@ -1,10 +1,10 @@
-# Video Translator
+# Video Translation Agent
 
 <a target="_blank" href="https://colab.research.google.com/github/imkasen/video-translator/blob/main/video_translator.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-使用 Faster Whisper 和 Google Gemini 进行视频字幕生成与翻译
+使用 LangChain 构建的 LLM Agent，利用 Faster Whisper 和 Google Gemini API 生成并翻译视频字幕。
 
 在 Google Colab 环境下：
 
