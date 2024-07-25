@@ -1,6 +1,6 @@
 # Video Translation Agent
 
-<a target="_blank" href="https://colab.research.google.com/github/imkasen/video-translator/blob/main/video_translator.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/imkasen/video-translation-agent/blob/main/video_translator.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
