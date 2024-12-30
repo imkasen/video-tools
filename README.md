@@ -1,14 +1,15 @@
-# Video Translation Agent
+# Video Translation Agent Using Google Gemini
 
 <a target="_blank" href="https://colab.research.google.com/github/imkasen/video-translation-agent/blob/main/video_translator.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-使用 LangChain 构建的 LLM Agent，利用 Faster Whisper 和 Google Gemini API 生成并翻译视频字幕。
+Generate and translate video subtitles using LLM Agent built by LangChain with [Faster Whisper](https://github.com/SYSTRAN/faster-whisper) and [Google Gemini API](https://aistudio.google.com/apikey).
 
-在 Google Colab 环境下：
+## Steps
 
-1. 使用 Faster Whisper 对视频 / 音频进行语音识别，并生成字幕文件
-2. 利用 Google Gemini 对源字幕进行翻译，并生成双语字幕文件
+In Google Colab:
 
-你需要准备一个 Google Gemini API。
+1. Use FFmpeg to get the audio from your uploaded video file.
+2. Use Faster Whisper to perform speech recognition and generate the subtitle file.
+3. Use Google Gemini to translate the source subtitle and generate the bilingual subtitle file.
